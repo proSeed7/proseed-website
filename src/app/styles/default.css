@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --container-width: theme('spacing.container');
+  --text-default: theme('colors.black.1');
+  --background-default-1: theme('colors.white.1');
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-default: theme('colors.white.1');
+    --background-default-1: theme('colors.black.1');
+  }
+}
+
+.light{
+  --text-default: theme('colors.black.1');
+  --background-default-1: theme('colors.white.1');
+}
+
+.dark {
+  --text-default: theme('colors.white.1');
+  --background-default-1: theme('colors.black.1');
+}
+
+@layer base {
+
+  body {
+    @apply relative flex flex-col min-h-screen hyphens-auto bg-default text-default;
+  }
+
+  .main {
+    @apply flex-[1_0_auto];
+  }
+  .container {
+    @apply max-w-container mx-auto px-4 2xl:px-0;
+  }
+  .module-margin {
+    @apply mb-8;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

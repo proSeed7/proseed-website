@@ -13,8 +13,32 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        white: {
+          1: '#FFFFFF',
+          2: '#D6DBDC',
+        },
+        black: {
+          1: '#000000',
+        },
+      },
+      textColor: {
+        'default': 'var(--text-default)',
+      },
+      backgroundColor: {
+        'default': 'var(--background-default-1)',
+      },
+      spacing: {
+        'container': '1440px',
+      },
+      maxWidth: {
+        'container': 'var(--container-width)',
+      },
     },
   },
   plugins: [],
+  corePlugins: {
+    container: false,
+  },
 };
 export default config;
