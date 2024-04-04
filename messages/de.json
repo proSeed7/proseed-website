@@ -6,9 +6,29 @@
     "label": "Sprache ändern",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
   },
-  "IndexPage": {
+  "StageSection": {
     "title": "Proseed - Deutsche Überschrift",
     "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
+  },
+  "MissionSection": {
+    "title": "Moving beyond convenience to build lasting prosperity.",
+    "text": "Unsere Mission ist es, durch das Überwinden des Gewohnten ein System zu bauen, in dem persönliche und unternehmensweite Erfolge zu nachhaltiger Prosperität führen."
+  },
+  "HowSection": {
+    "title": "Tiefes Verständnis für Prosperity",
+    "text": "Wir verfolgen unsere Vision mit Disziplin, Struktur und Raum für das Unerwartete. Wir setzen den Fokus auf Vision, Strategie und Kultur."
+  },
+  "ProsperitySection": {
+    "title": "Hier könnte Ihre (Werbung) Testimonial stehen",
+    "text": "Es lebe die Prosperität! Erzähl der Welt wie Du sie erlebt hast."
+  },
+  "ContactSection": {
+    "title": "Du & Proseed: Dein Weg zur lasting prosperity",
+    "text": "Tritt mit uns in Kontakt für den Startschuss unserer gemeinsamen Reise."
+  },
+  "CarrierSection": {
+    "title": "Wie du einer \nvon uns wirst",
+    "text": "Für nachhaltige Prosperität braucht es eine Vielfalt an klugen Köpfen. Schicke uns Deine Bewerbung. Wir suchen Euch alle; vom Werksstudenten bis zum Management Berater."
   },
   "PathnamesPage": {
     "title": "Pfadnamen",
