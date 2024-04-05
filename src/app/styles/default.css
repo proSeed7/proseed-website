@@ -5,24 +5,32 @@
 :root {
   --container-width: theme('spacing.container');
   --text-default: theme('colors.black.1');
+  --text-default-inverted: theme('colors.white.1');
   --background-default-1: theme('colors.white.1');
+  --background-default-1-inverted: theme('colors.black.1');
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --text-default: theme('colors.white.1');
+    --text-default-inverted: theme('colors.black.1');
     --background-default-1: theme('colors.black.1');
+    --background-default-1-inverted: theme('colors.white.1');
   }
 }
 
 .light{
   --text-default: theme('colors.black.1');
+  --text-default-inverted: theme('colors.white.1');
   --background-default-1: theme('colors.white.1');
+  --background-default-1-inverted: theme('colors.black.1');
 }
 
 .dark {
   --text-default: theme('colors.white.1');
+  --text-default-inverted: theme('colors.black.1');
   --background-default-1: theme('colors.black.1');
+  --background-default-1-inverted: theme('colors.white.1');
 }
 
 @layer base {

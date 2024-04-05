@@ -14,7 +14,6 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        default: 'var(--text-default)',
         white: {
           1: '#FFFFFF',
           2: '#D6DBDC',
@@ -25,9 +24,17 @@ const config: Config = {
       },
       textColor: {
         'default': 'var(--text-default)',
+        'default-inverted': 'var(--text-default-inverted)',
       },
       backgroundColor: {
         'default': 'var(--background-default-1)',
+        'default-inverted': 'var(--background-default-1-inverted)',
+      },
+      borderColor: {
+        'default': 'var(--text-default)',
+      },
+      fill: {
+        'default': 'var(--text-default)',
       },
       spacing: {
         'container': '1440px',
