@@ -1,14 +1,17 @@
 import ThemeSwitch from "@/app/components/ThemeSwitch";
 import LocaleSwitcher from './LocaleSwitcher';
+import Logo from "@/app/components/Logo";
+import { Twirl as Hamburger } from 'hamburger-react';
+import HamburgerMenu from "@/app/components/HamburgerMenu";
 
 export default function Header() {
     return (
-        <header className={'container w-full flex justify-between py-8'}>
-            <div className={'flex gap-8'}>
+        <header className={'container bg-default w-full flex justify-between py-4 sticky top-0'}>
+            <div className={'flex items-center gap-8'}>
                 <div role="banner" className="title">
-                    Proseed Logo
+                    <Logo />
                 </div>
-                <nav aria-label="Proceed Navigation">
+                <nav className={'hidden md:block'} aria-label="Proceed Navigation">
                     <menu className="flex gap-4"
                         role="menubar"
                         aria-label="Mythical University">
@@ -44,9 +47,10 @@ export default function Header() {
                     </menu>
                 </nav>
             </div>
-            <div className="switches flex gap-4">
-                <ThemeSwitch />
+            <div className="switches flex items-center gap-4">
                 <LocaleSwitcher />
+                <ThemeSwitch />
+                <HamburgerMenu />
             </div>
         </header>
     );

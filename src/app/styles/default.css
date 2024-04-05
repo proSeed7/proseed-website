@@ -26,6 +26,10 @@
 }
 
 @layer base {
+  html {
+    @apply snap-y snap-mandatory;
+    @apply scroll-pt-24;
+  }
 
   body {
     @apply relative flex flex-col min-h-screen hyphens-auto bg-default text-default;
@@ -33,7 +37,16 @@
 
   .main {
     @apply flex-[1_0_auto];
+
+    section {
+      @apply border border-default snap-start snap-always h-screen;
+    }
   }
+
+  .footer {
+    @apply snap-start snap-always;
+  }
+
   .container {
     @apply max-w-container mx-auto px-4 2xl:px-0;
   }
