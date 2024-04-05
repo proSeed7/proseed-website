@@ -10,7 +10,7 @@ export default function ContactSection({ locale }: ContactSectionProps) {
     const t = useTranslations('ContactSection');
 
     return (
-        <section className={'container w-full py-8'}>
+        <section id="contactSection" className={'container w-full py-8'}>
             <h2>{t('title')}</h2>
             <p>{t('text')}</p>
         </section>

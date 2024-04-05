@@ -8,7 +8,7 @@ export default function MissionSection({ locale }: MissionSectionProps) {
     const t = useTranslations('MissionSection');
 
     return (
-        <section className={'container w-full py-8'}>
+        <section id="missionSection" className={'container w-full py-8'}>
             <h2>{t('title')}</h2>
             <p>{t('text')}</p>
         </section>

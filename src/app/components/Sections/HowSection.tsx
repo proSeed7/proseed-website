@@ -10,7 +10,7 @@ export default function HowSection({ locale }: HowSectionProps) {
     const t = useTranslations('HowSection');
 
     return (
-        <section className={'container w-full py-8'}>
+        <section id="howSection" className={'container w-full py-8'}>
             <h2>{t('title')}</h2>
             <p>{t('text')}</p>
         </section>

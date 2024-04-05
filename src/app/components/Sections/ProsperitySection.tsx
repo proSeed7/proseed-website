@@ -10,7 +10,7 @@ export default function ProsperitySection({ locale }: ProsperitySectionProps) {
     const t = useTranslations('ProsperitySection');
 
     return (
-        <section className={'container w-full py-8'}>
+        <section id="prosperitySection" className={'container w-full py-8'}>
             <p>WIRD ERST IM HERBST DEPLOYT</p>
             <h2>{t('title')}</h2>
             <p>{t('text')}</p>

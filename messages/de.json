@@ -10,6 +10,14 @@
     "title": "Proseed - Deutsche Überschrift",
     "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
   },
+  "Navigation": {
+    "mission": "Mission",
+    "how": "How",
+    "what": "What",
+    "prosperity": "Prosperität",
+    "contact": "Kontakt",
+    "career": "Karriere"
+  },
   "MissionSection": {
     "title": "Moving beyond convenience to build lasting prosperity.",
     "text": "Unsere Mission ist es, durch das Überwinden des Gewohnten ein System zu bauen, in dem persönliche und unternehmensweite Erfolge zu nachhaltiger Prosperität führen."
@@ -26,7 +34,7 @@
     "title": "Du & Proseed: Dein Weg zur lasting prosperity",
     "text": "Tritt mit uns in Kontakt für den Startschuss unserer gemeinsamen Reise."
   },
-  "CarrierSection": {
+  "CareerSection": {
     "title": "Wie du einer \nvon uns wirst",
     "text": "Für nachhaltige Prosperität braucht es eine Vielfalt an klugen Köpfen. Schicke uns Deine Bewerbung. Wir suchen Euch alle; vom Werksstudenten bis zum Management Berater."
   },
@@ -41,10 +49,6 @@
   "NotFoundPage": {
     "title": "Seite nicht gefunden",
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
-  },
-  "Navigation": {
-    "home": "Start",
-    "pathnames": "Pfadnamen"
   },
   "PageLayout": {
     "links": {

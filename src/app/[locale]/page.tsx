@@ -3,7 +3,7 @@ import MissionSection from "@/app/components/Sections/MissionSection";
 import HowSection from "@/app/components/Sections/HowSection";
 import ProsperitySection from "@/app/components/Sections/ProsperitySection";
 import ContactSection from "@/app/components/Sections/ContactSection";
-import CarrierSection from "@/app/components/Sections/CarrierSection";
+import CareerSection from "@/app/components/Sections/CareerSection";
 
 type Props = {
     params: {locale: string};
@@ -17,7 +17,7 @@ export default function Home({params: {locale}}: Props) {
           <HowSection locale={locale} />
           <ProsperitySection locale={locale} />
           <ContactSection locale={locale} />
-          <CarrierSection locale={locale} />
+          <CareerSection locale={locale} />
       </main>
   );
 }

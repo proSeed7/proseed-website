@@ -6,6 +6,14 @@
     "label": "Change language",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
   },
+  "Navigation": {
+    "mission": "Mission",
+    "how": "How",
+    "what": "What",
+    "prosperity": "Prosperity",
+    "contact": "Contact",
+    "career": "Career"
+  },
   "StageSection": {
     "title": "Proseed - English Headline",
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
@@ -26,7 +34,7 @@
     "title": "You & proseed: Your journey to lasting prosperity",
     "text": "Get in touch with us to kick off our joint journey."
   },
-  "CarrierSection": {
+  "CareerSection": {
     "title": "How you become one of us",
     "text": "For sustainable prosperity, we need a diversity of smart minds. Send us your application. We're looking for all of you; from working students to management consultants."
   },
@@ -41,10 +49,6 @@
   "NotFoundPage": {
     "title": "Page not found",
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
-  },
-  "Navigation": {
-    "home": "Home",
-    "pathnames": "Pathnames"
   },
   "PageLayout": {
     "links": {

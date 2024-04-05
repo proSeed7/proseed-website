@@ -37,6 +37,7 @@
   html {
     @apply snap-y snap-mandatory;
     @apply scroll-pt-24;
+    @apply scroll-smooth;
   }
 
   body {

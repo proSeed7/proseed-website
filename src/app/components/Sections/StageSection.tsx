@@ -10,7 +10,7 @@ export default function StageSection({ locale }: StageSectionProps) {
     const t = useTranslations('StageSection');
 
     return (
-        <section className={'container w-full py-8'}>
+        <section id="stageSection" className={'container w-full py-8'}>
             <h1>{t('title')}</h1>
         </section>
     );

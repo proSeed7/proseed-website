@@ -6,9 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="812f1245-b424-42c8-a4a5-190e0cc77a3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ThemeSwitch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ThemeSwitch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/CarrierSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/CareerSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/HowSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/HowSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/MissionSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/MissionSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/ProsperitySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/ProsperitySection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/StageSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/StageSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +104,7 @@
       <updated>1711009317168</updated>
       <workItem from="1711009318348" duration="250000" />
       <workItem from="1711009580748" duration="27587000" />
-      <workItem from="1712248268380" duration="23172000" />
+      <workItem from="1712248268380" duration="25098000" />
     </task>
     <servers />
   </component>
