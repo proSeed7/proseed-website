@@ -1,10 +1,37 @@
 'use client'
 import {useEffect, useState} from "react";
+import {useRouter} from "next/navigation";
 import { Twirl as Hamburger } from 'hamburger-react'
 
 export default function HeaderLogic({ translations }) {
 
     const [isOpen, setOpen] = useState(false);
+    const router = useRouter();
+    const onLinkClick = async (e) => {
+        e.preventDefault();
+        const target = e.target.getAttribute('href');
+        const targetSection = document.querySelector(target);
+        const headerHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-height'), 10);
+        setOpen(false);
+
+        if (targetSection) {
+            window.scrollTo({
+                top: targetSection.offsetTop - headerHeight,
+                behavior: "smooth"
+            });
+        } else {
+            router.push('/');
+            setTimeout(() => {
+                const section = document.querySelector(target);
+                if (section) {
+                    window.scrollTo({
+                        top: section.offsetTop - headerHeight,
+                        behavior: "smooth"
+                    });
+                }
+            }, 50);
+        }
+    };
 
     const navLinks = [
         { name: 'why', label: translations.why, href: "#stageSection" },
@@ -26,7 +53,7 @@ export default function HeaderLogic({ translations }) {
                     aria-label="Proseed Navigation Menu">
                     {navLinks.map(link => (
                         <li className={'first:md:hidden'} role="none" key={link.name}>
-                            <a role="menuitem" className={''} href={link.href} onClick={() => {setOpen(false)}}>
+                            <a role="menuitem" className={''} href={link.href} onClick={onLinkClick}>
                                 {link.label}
                             </a>
                         </li>

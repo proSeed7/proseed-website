@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="812f1245-b424-42c8-a4a5-190e0cc77a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/HeaderLogic.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/HamburgerMenu.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/LocaleSwitcherSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/LocaleSwitcherSelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ThemeSwitch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ThemeSwitch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/HeaderLogic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/HeaderLogic.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +103,7 @@
       <workItem from="1713192070462" duration="598000" />
       <workItem from="1713256257902" duration="598000" />
       <workItem from="1713423176425" duration="860000" />
-      <workItem from="1713515122679" duration="12876000" />
+      <workItem from="1713515122679" duration="16167000" />
     </task>
     <servers />
   </component>
