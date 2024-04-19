@@ -35,7 +35,7 @@ export default function LocaleSwitcherSelect({
 
   return (
     <label
-      className={'relative transition-opacity [&:disabled]:opacity-30'}
+      className={'ml-auto md:ml-0 order-3 relative transition-opacity [&:disabled]:opacity-30'}
     >
       <p className="sr-only">{label}</p>
       <select

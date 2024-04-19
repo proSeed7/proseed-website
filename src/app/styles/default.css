@@ -4,6 +4,8 @@
 
 :root {
   --container-width: theme('spacing.container');
+  --header-height: 91px;
+
   --text-default: theme('colors.black.1');
   --text-default-inverted: theme('colors.white.1');
   --background-default-1: theme('colors.white.1');

@@ -7,6 +7,7 @@
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
   },
   "Navigation": {
+    "why": "Why",
     "mission": "Mission",
     "how": "How",
     "what": "What",

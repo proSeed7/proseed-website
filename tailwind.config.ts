@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   content: [
@@ -38,13 +39,25 @@ const config: Config = {
       },
       spacing: {
         'container': '1440px',
+        'header-height': 'var(--header-height, 91px)',
       },
       maxWidth: {
         'container': 'var(--container-width)',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        '.h-dyn-screen': {
+          height: ['100vh', '100dvh'],
+        },
+        '.h-sm-screen': {
+          height: ['100vh', '100svh'],
+        },
+      });
+    }),
+  ],
   corePlugins: {
     container: false,
   },

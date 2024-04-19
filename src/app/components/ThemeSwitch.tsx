@@ -31,7 +31,7 @@ export default function ThemeSwitch() {
     }
 
     return (
-        <div className={'pt-1'}>
+        <div className={'order-4 pt-1'}>
             <input type="checkbox" className="checkbox opacity-0 absolute peer" id="checkbox" onChange={toggleTheme}
                    checked={isToggled}/>
             <label htmlFor="checkbox"
