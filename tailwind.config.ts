@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'encode': 'Encode Sans Condensed, sans-serif',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,11 +20,15 @@ const config: Config = {
       colors: {
         white: {
           1: '#FFFFFF',
-          2: '#D6DBDC',
+          2: '#f1ebdf',
         },
         black: {
-          1: '#000000',
+          1: '#1d1d1b',
         },
+        yellow: '#fed400',
+        green: '#004225',
+        'accent-color': 'var(--accent-color)',
+        'accent-color-inverted': 'var(--accent-color-inverted)',
       },
       textColor: {
         'default': 'var(--text-default)',
@@ -30,6 +37,8 @@ const config: Config = {
       backgroundColor: {
         'default': 'var(--background-default-1)',
         'default-inverted': 'var(--background-default-1-inverted)',
+        'accent': 'var(--background-accent)',
+        'accent-inverted': 'var(--background-accent-inverted)',
       },
       borderColor: {
         'default': 'var(--text-default)',

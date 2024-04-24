@@ -48,19 +48,23 @@ export default function HeaderLogic({ translations }) {
                 className={'order-2 absolute md:static top-header-height right-0 pointer-events-none overflow-hidden w-full h-dyn-screen md:h-auto md:w-auto md:ml-auto'}
                 aria-label="Proceed Navigation">
                 <menu
-                    className={`flex flex-col md:flex-row h-full w-full md:h-auto md:w-auto bg-default p-8 md:p-0 md:gap-4 pointer-events-auto duration-300 translate-x-full md:translate-x-0 ${isOpen ? '[&]:translate-x-0' : ''}`}
+                    className={`flex flex-col md:flex-row h-full w-full md:h-auto md:w-auto bg-default p-8 md:p-0 md:gap-4 transition-transform pointer-events-auto duration-300 translate-x-full md:translate-x-0 ${isOpen ? '[&]:translate-x-0' : ''}`}
                     role="menubar"
-                    aria-label="Proseed Navigation Menu">
+                    aria-label="Proseed Navigation Menu"
+                    aria-expanded={isOpen ? "true" : "false"}
+                >
+
                     {navLinks.map(link => (
-                        <li className={'first:md:hidden'} role="none" key={link.name}>
-                            <a role="menuitem" className={''} href={link.href} onClick={onLinkClick}>
+                        <li className={''} role="none" key={link.name}>
+                            <a role="menuitem" className={'relative hover:text-green after:bg-green after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer'} href={link.href} tabIndex={isOpen ? 0 : -1}
+                               onClick={onLinkClick}>
                                 {link.label}
                             </a>
                         </li>
                     ))}
                 </menu>
             </nav>
-            <button className={'order-5 md:hidden'}>
+            <button className={'order-5 md:hidden text-accent-color'}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
             </button>
         </>

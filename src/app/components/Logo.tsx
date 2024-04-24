@@ -25,8 +25,8 @@ export default function Logo() {
             <Image
                 src={logo}
                 alt="Proseed Logo"
-                width={40}
-                height={60}
+                width={80}
+                height={80}
                 unoptimized={true}
             />
         </Link>

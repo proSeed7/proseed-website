@@ -31,11 +31,11 @@ export default function ThemeSwitch() {
     }
 
     return (
-        <div className={'order-4 pt-1'}>
+        <div className={'order-4'}>
             <input type="checkbox" className="checkbox opacity-0 absolute peer" id="checkbox" onChange={toggleTheme}
                    checked={isToggled}/>
             <label htmlFor="checkbox"
-                   className="checkbox-label peer-checked:[&>span]:translate-x-[23px] flex justify-between items-center cursor-pointer relative w-[50px] h-[26px] p-1 rounded-full bg-default-inverted">
+                   className="checkbox-label peer-checked:[&>span]:translate-x-[23px] flex justify-between items-center cursor-pointer relative w-[50px] h-[26px] p-1 rounded-full bg-accent-inverted">
                 <FaMoon className={'text-default-inverted'}/>
                 <FaSun className={'text-default-inverted'}/>
                 <span className="transition-transform duration-300 ease-linear bg-default w-[22px] h-[22px] absolute left-0.5 top-0.5 rounded-full"></span>

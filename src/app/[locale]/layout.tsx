@@ -16,8 +16,6 @@ type Props = {
     params: { locale: string };
 };
 
-const inter = Inter({subsets: ["latin"]});
-
 export function generateStaticParams() {
     return locales.map((locale) => ({locale}));
 }
@@ -41,7 +39,7 @@ export default async function LocaleLayout({
 
     return (
         <html suppressHydrationWarning lang={locale}>
-        <body className={inter.className}>
+        <body className={''}>
         <Providers>
             <Header/>
             {children}
