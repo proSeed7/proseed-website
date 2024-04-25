@@ -16,12 +16,12 @@ export default function MissionSection({ locale }: MissionSectionProps) {
     return (
         <section id="missionSection" className={'container w-full'}>
             <div className="relative h-full w-full flex flex-col items-center justify-center pb-40">
-                <div className="grid md:grid-cols-2 items-center gap-8">
-                    <div className="flex flex-col gap-8 text-center md:text-left">
-                        <h2 className="text-3xl md:text-5xl text-accent-green font-extrabold tracking-tight">
+                <div className="grid lg:grid-cols-2 items-center justify-items-center gap-20 md:gap-8">
+                    <div className="flex flex-col gap-8 text-center lg:text-left">
+                        <h2 className="text-3xl md:text-5xl md:leading-normal text-accent-green font-semibold">
                             {t('title')}
                         </h2>
-                        <p className="text-xl font-extrabold tracking-tight">
+                        <p className="text-xl md:text-3xl md:leading-normal">
                             {t('text')}
                         </p>
                     </div>

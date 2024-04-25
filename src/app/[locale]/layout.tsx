@@ -27,9 +27,6 @@ export async function generateMetadata({
 
     return {
         title: t('title'),
-        icons: {
-            icon: './',
-        },
     };
 }
 

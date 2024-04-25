@@ -7,6 +7,7 @@
 :root {
   --container-width: theme('spacing.container');
   --header-height: 91px;
+  --footer-height: 306px;
 
   --text-default: theme('colors.green');
   --text-default-inverted: theme('colors.white.1');
@@ -59,7 +60,7 @@
 
 @layer base {
   html {
-    @apply snap-y snap-mandatory;
+    /*@apply snap-y snap-mandatory;*/
     @apply scroll-pt-24;
     @apply scroll-smooth;
   }
@@ -71,7 +72,7 @@
   .main {
     @apply flex-[1_0_auto];
 
-    section {
+    section:not(#careerSection) {
       @apply snap-start snap-always h-section-height;
     }
   }
@@ -97,5 +98,13 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@layer components {
+  #careerSection {
+    @screen md {
+      height: calc(100vh - var(--header-height) - var(--footer-height));
+      min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    }
   }
 }

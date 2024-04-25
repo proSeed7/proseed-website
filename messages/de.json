@@ -41,6 +41,10 @@
     "title": "Tiefes Verständnis für Prosperity",
     "text": "Wir verfolgen unsere Vision mit Disziplin, Struktur und Raum für das Unerwartete. Wir setzen den Fokus auf Vision, Strategie und Kultur."
   },
+  "WhatSection": {
+    "title": "Unser proseedure:Beratung nach Maß",
+    "text": "Ganz gleich, ob Du gerade erst beginnst, bereits in vollem Gange bist oder vor Herausforderungen stehst – wir entwickeln maßgeschneiderte Lösungen für deine Ziele. Von der Visionsentwicklung über die Strategieentwicklung bis hin zur Organisationsentwicklung unterstützen wir dich dabei, den optimalen Weg zu finden und zu gehen, um Prosperität zu erreichen."
+  },
   "ProsperitySection": {
     "title": "Hier könnte Ihre (Werbung) Testimonial stehen",
     "text": "Es lebe die Prosperität! Erzähl der Welt wie Du sie erlebt hast."
@@ -52,6 +56,19 @@
   "CareerSection": {
     "title": "Wie du einer \nvon uns wirst",
     "text": "Für nachhaltige Prosperität braucht es eine Vielfalt an klugen Köpfen. Schicke uns Deine Bewerbung. Wir suchen Euch alle; vom Werksstudenten bis zum Management Berater."
+  },
+  "Footer": {
+    "text": "Wir sind strategists of prosperity",
+    "column1Title": "Alles auf einen Blick",
+    "column2Title": "Jobs für Proseeds",
+    "job1": "Junior Berater",
+    "job2": "Berater",
+    "job3": "Senior Berater ",
+    "job4": "Management Berater",
+    "job5": "Intrapreneur",
+    "job6": "Backoffice",
+    "job7": "Werksstudent",
+    "job8": "Praktikant"
   },
   "PathnamesPage": {
     "title": "Pfadnamen",

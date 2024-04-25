@@ -1,29 +1,36 @@
 'use client';
+
 import { useState, useEffect } from 'react';
-import { useTheme } from 'next-themes'
+import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import LogoDark from '../../../public/proseed_logo.svg';
-import LogoLight from '../../../public/proseed_logo-light.svg'
+import LogoDarkHeader from '../../../public/proseed_logo.svg';
+import LogoLightHeader from '../../../public/proseed_logo-light.svg';
 
-export default function Logo() {
-    const [logo, setLogo] = useState(LogoDark);
-    const { theme} = useTheme();
+import LogoDarkStage from '../../../public/proseed_logo_stage.svg';
+import LogoLightStage from '../../../public/proseed_logo_stage-light.svg';
+
+export default function Logo({className, hasText = false}: { className?: string, hasText?: boolean }) {
+    const { theme } = useTheme();
+    const [logo, setLogo] = useState<string>(LogoDarkHeader);
 
     useEffect(() => {
-        if (theme === 'dark') {
-            setLogo(LogoLight);
-        } else {
-            setLogo(LogoDark);
+        let darkLogo = LogoDarkHeader;
+        let lightLogo = LogoLightHeader;
+
+        if (hasText) {
+            darkLogo = LogoDarkStage;
+            lightLogo = LogoLightStage;
         }
 
-    }, [theme]);
+        setLogo(theme === 'dark' ? lightLogo : darkLogo);
+    }, [hasText, theme]);
 
     return (
         <Link href="/" passHref>
             <Image
-                className={'h-20 w-20'}
+                className={className}
                 src={logo}
                 alt="Proseed Logo"
                 unoptimized={true}
@@ -31,3 +38,4 @@ export default function Logo() {
         </Link>
     );
 }
+

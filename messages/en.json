@@ -38,8 +38,12 @@
     "text": "Our mission is to build a system in which personal and corporate breakthrough works together for lasting prosperity."
   },
   "HowSection": {
-    "title": "Deep understanding of prosperity",
+    "title": "Greater understanding of prosperity",
     "text": "We pursue our vision by discipline, structure and space for the unexpected. We always focus on Vision, Strategy and Culture."
+  },
+  "WhatSection": {
+    "title": "Our proseedure: tailored consulting",
+    "text": "Whether you’re just starting out, in full swing, or facing challenges - we’ll develop tailored solutions to meet your goals. From vision development to strategy development to organizational development, we’ll help you find and follow the best path to prosperity."
   },
   "ProsperitySection": {
     "title": "Hier könnte Ihre (Werbung) Testimonial stehen",
@@ -52,6 +56,19 @@
   "CareerSection": {
     "title": "How you become one of us",
     "text": "For sustainable prosperity, we need a diversity of smart minds. Send us your application. We're looking for all of you; from working students to management consultants."
+  },
+  "Footer": {
+    "text": "We are strategist of prosperity",
+    "column1Title": "All at a glance",
+    "column2Title": "Jobs for Proseeds",
+    "job1": "Junior Consultant",
+    "job2": "Consultant",
+    "job3": "Senior Consultant ",
+    "job4": "Management Consultant",
+    "job5": "Intrapreneur",
+    "job6": "Backoffice",
+    "job7": "Working Student",
+    "job8": "Intern"
   },
   "PathnamesPage": {
     "title": "Pathnames",

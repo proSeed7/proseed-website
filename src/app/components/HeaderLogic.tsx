@@ -16,7 +16,7 @@ export default function HeaderLogic({ translations }) {
 
         if (targetSection) {
             window.scrollTo({
-                top: targetSection.offsetTop - headerHeight,
+                top: targetSection.offsetTop /*- headerHeight*/,
                 behavior: "smooth"
             });
         } else {
@@ -25,7 +25,7 @@ export default function HeaderLogic({ translations }) {
                 const section = document.querySelector(target);
                 if (section) {
                     window.scrollTo({
-                        top: section.offsetTop - headerHeight,
+                        top: section.offsetTop /*- headerHeight*/,
                         behavior: "smooth"
                     });
                 }
@@ -37,7 +37,8 @@ export default function HeaderLogic({ translations }) {
         { name: 'why', label: translations.why, href: "#stageSection" },
         { name: 'mission', label: translations.mission, href: "#missionSection" },
         { name: 'how', label: translations.how, href: "#howSection" },
-        { name: 'prosperity', label: translations.prosperity, href: "#prosperitySection" },
+        { name: 'what', label: translations.what, href: "#whatSection" },
+        /*{ name: 'prosperity', label: translations.prosperity, href: "#prosperitySection" },*/
         { name: 'contact', label: translations.contact, href: "#contactSection" },
         { name: 'career', label: translations.career, href: "#careerSection" }
     ];
