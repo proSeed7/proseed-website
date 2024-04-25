@@ -3,6 +3,7 @@ import {unstable_setRequestLocale} from "next-intl/server";
 import Image from "next/image";
 
 import Illustration from "../../../../public/SectionImages/partying.svg";
+import Footer from "@/app/components/Footer";
 
 interface CareerSectionProps {
     locale: string;
@@ -13,7 +14,7 @@ export default function CareerSection({ locale }: CareerSectionProps) {
     const t = useTranslations('CareerSection');
 
     return (
-        <section id="careerSection" className={'container w-full py-8'}>
+        <section id="careerSection" className={'container w-full'}>
             <div className="relative h-full w-full flex flex-col items-center justify-center pb-40">
                 <div className="grid lg:grid-cols-2 items-center justify-items-center gap-20 md:gap-8">
                     <div className="flex flex-col gap-8 text-center lg:text-left">
@@ -27,6 +28,7 @@ export default function CareerSection({ locale }: CareerSectionProps) {
                     <Image className={'lg:order-1'} alt={'Section Image'} src={Illustration}/>
                 </div>
             </div>
+            <Footer/>
         </section>
     );
 }

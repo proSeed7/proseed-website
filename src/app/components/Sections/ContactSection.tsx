@@ -13,7 +13,7 @@ export default function ContactSection({ locale }: ContactSectionProps) {
     const t = useTranslations('ContactSection');
 
     return (
-        <section id="contactSection" className={'container w-full my-20'}>
+        <section id="contactSection" className={'container w-full'}>
             <div className="relative h-full w-full flex flex-col items-center justify-center pb-40">
                 <div className="grid lg:grid-cols-2 items-center justify-items-center gap-20 md:gap-8">
                     <div className="lg:order-2 flex flex-col gap-8 text-center lg:text-left">

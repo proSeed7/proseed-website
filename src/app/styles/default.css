@@ -60,7 +60,7 @@
 
 @layer base {
   html {
-    /*@apply snap-y snap-mandatory;*/
+    @apply snap-y snap-mandatory;
     @apply scroll-pt-24;
     @apply scroll-smooth;
   }
@@ -72,7 +72,7 @@
   .main {
     @apply flex-[1_0_auto];
 
-    section:not(#careerSection) {
+    section {
       @apply snap-start snap-always h-section-height;
     }
   }
