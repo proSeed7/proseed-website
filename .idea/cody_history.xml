@@ -75,6 +75,43 @@
               <title value="Claude 3 Sonnet" />
             </llm>
           </llm>
+          <messages>
+            <list>
+              <message>
+                <speaker value="HUMAN" />
+                <text value="Can you fix me this array?" />
+              </message>
+              <message>
+                <speaker value="ASSISTANT" />
+                <text value="Here is one way to fix the array in the &quot;typewriter&quot; object in the selected JSON:&#10;&#10;```json&#10;&quot;typewriter&quot;: {&#10;  &quot;items&quot;: [&#10;    &quot;vision development&quot;,&#10;    &quot;corporate strategy&quot;,&#10;    &quot;IT strategy&quot;,&#10;    &quot;unit strategy&quot;,&#10;    &quot;initializations&quot;,&#10;    &quot;project rescue&quot;,&#10;    &quot;transformations&quot;,&#10;    &quot;program management&quot;, &#10;    &quot;project management&quot;,&#10;    &quot;agile coaching&quot;,&#10;    &quot;interim management&quot;,&#10;    &quot;business coaching&quot;&#10;  ]&#10;}&#10;```&#10;&#10;The key changes:&#10;&#10;- Wrap the list of services in an &quot;items&quot; array&#10;- Make each service a separate string element in the array&#10;- Add commas after each element except the last one&#10;&#10;This makes it a valid JSON array that is easier to iterate over and access individual elements." />
+              </message>
+              <message>
+                <speaker value="HUMAN" />
+                <text value="I need it to be an object because I get this error: code: 'INVALID_MESSAGE',&#10;  originalMessage: 'Message at `StageSection.typewriter` resolved to an array, but only strings are supported. See https://next-intl-docs.vercel.app/docs/usage/messages#arrays-of-messages'" />
+              </message>
+              <message>
+                <speaker value="ASSISTANT" />
+                <text value="Okay, since you need it to be an object instead of an array, here is one way to modify it:&#10;&#10;```json&#10;&quot;typewriter&quot;: {&#10;  &quot;vision development&quot;: &quot;vision development&quot;,&#10;  &quot;corporate strategy&quot;: &quot;corporate strategy&quot;,&#10;  &quot;IT strategy&quot;: &quot;IT strategy&quot;,&#10;  &quot;unit strategy&quot;: &quot;unit strategy&quot;,&#10;  &quot;initializations&quot;: &quot;initializations&quot;,&#10;  &quot;project rescue&quot;: &quot;project rescue&quot;,&#10;  &quot;transformations&quot;: &quot;transformations&quot;,&#10;  &quot;program management&quot;: &quot;program management&quot;,&#10;  &quot;project management&quot;: &quot;project management&quot;,&#10;  &quot;agile coaching&quot;: &quot;agile coaching&quot;,&#10;  &quot;interim management&quot;: &quot;interim management&quot;,  &#10;  &quot;business coaching&quot;: &quot;business coaching&quot;&#10;}&#10;```&#10;&#10;The key changes:&#10;&#10;- Make each service a key-value pair in the object&#10;- Set both the key and value to the service name string&#10;&#10;This keeps it as an object rather than an array, with each service as a separate property. Let me know if this works or if you need any other adjustments!" />
+              </message>
+              <message>
+                <speaker value="HUMAN" />
+                <text value="Can you make it with 1,2,3 aso. and also do it for this: &#10;&#10;&amp;quot;typewriter&amp;quot;: [&#10;      &amp;quot;Visionsentwicklung&amp;quot;,&#10;      &amp;quot;Unternehmensstrategie&amp;quot;,&#10;      &amp;quot;IT-Strategie&amp;quot;,&#10;      &amp;quot;Bereichsstrategie&amp;quot;,&#10;      &amp;quot;Initialisierungen&amp;quot;,&#10;      &amp;quot;Projektrettung&amp;quot;,&#10;      &amp;quot;Transformationen&amp;quot;,&#10;      &amp;quot;Programmleitung&amp;quot;,&#10;      &amp;quot;Projektleitung&amp;quot;,&#10;      &amp;quot;Agile Coaching&amp;quot;,&#10;      &amp;quot;Interimmanagement&amp;quot;,&#10;      &amp;quot;Business-Coaching&amp;quot;&#10;    ]" />
+              </message>
+              <message>
+                <speaker value="ASSISTANT" />
+                <text value="Here is one way to modify both objects to use numbered keys:&#10;&#10;```json&#10;&quot;typewriter&quot;: {&#10;  &quot;1&quot;: &quot;vision development&quot;,&#10;  &quot;2&quot;: &quot;corporate strategy&quot;,&#10;  &quot;3&quot;: &quot;IT strategy&quot;,&#10;  &quot;4&quot;: &quot;unit strategy&quot;,&#10;  &quot;5&quot;: &quot;initializations&quot;,&#10;  &quot;6&quot;: &quot;project rescue&quot;,&#10;  &quot;7&quot;: &quot;transformations&quot;,&#10;  &quot;8&quot;: &quot;program management&quot;,&#10;  &quot;9&quot;: &quot;project management&quot;,&#10;  &quot;10&quot;: &quot;agile coaching&quot;,&#10;  &quot;11&quot;: &quot;interim management&quot;,&#10;  &quot;12&quot;: &quot;business coaching&quot;  &#10;},&#10;&#10;&quot;typewriter_de&quot;: {&#10;  &quot;1&quot;: &quot;Visionsentwicklung&quot;,&#10;  &quot;2&quot;: &quot;Unternehmensstrategie&quot;,&#10;  &quot;3&quot;: &quot;IT-Strategie&quot;, &#10;  &quot;4&quot;: &quot;Bereichsstrategie&quot;,&#10;  &quot;5&quot;: &quot;Initialisierungen&quot;,&#10;  &quot;6&quot;: &quot;Projektrettung&quot;,&#10;  &quot;7&quot;: &quot;Transformationen&quot;,&#10;  &quot;8&quot;: &quot;Programmleitung&quot;,&#10;  &quot;9&quot;: &quot;Projektleitung&quot;,&#10;  &quot;10&quot;: &quot;Agile Coaching&quot;,&#10;  &quot;11&quot;: &quot;Interimmanagement&quot;,&#10;  &quot;12&quot;: &quot;Business-Coaching&quot;&#10;}&#10;```&#10;&#10;The key changes:&#10;&#10;- Used numbered keys starting from 1 instead of the service names&#10;- Kept the values as the original service name strings&#10;- Added a &quot;_de&quot; suffix to the German object name&#10;&#10;Let me know if you would like the keys or values formatted differently!" />
+              </message>
+              <message>
+                <speaker value="HUMAN" />
+                <text value="How can I select them in my file? &#10;&#10;console.log(t('typewriter.1'));&#10;&#10;withouth having to write all of them?" />
+              </message>
+              <message>
+                <speaker value="ASSISTANT" />
+                <text value="There are a couple ways you can select the typewriter messages without having to write them all out:&#10;&#10;1. Use Object.values() to get an array of all the values:&#10;&#10;```js&#10;const typewriterMessages = Object.values(t('typewriter'));&#10;&#10;console.log(typewriterMessages[0]); &#10;```&#10;&#10;2. Get a random message:&#10;&#10;```js &#10;const keys = Object.keys(t('typewriter'));&#10;const randomKey = keys[Math.floor(Math.random() * keys.length)];&#10;&#10;console.log(t(`typewriter.${randomKey}`));&#10;```&#10;&#10;3. Loop through the keys:&#10;&#10;```js&#10;const typewriter = t('typewriter'); &#10;&#10;for (let key in typewriter) {&#10;  console.log(typewriter[key]);&#10;}&#10;```&#10;&#10;So in your code, you could do something like:&#10;&#10;```js&#10;const message = t('typewriter')[Math.floor(Math.random() * 12) + 1];&#10;&#10;console.log(message);&#10;```&#10;&#10;This will randomly pick one of the 12 messages each time.&#10;&#10;Let me know if this helps or if you need any clarification!" />
+              </message>
+            </list>
+          </messages>
+          <updatedAt value="2024-04-24T18:24:22.611743" />
         </chat>
       </list>
     </chats>

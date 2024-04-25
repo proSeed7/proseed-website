@@ -6,6 +6,24 @@
     "label": "Change language",
     "locale": "{locale, select, de {🇩🇪} en {🇺🇸} other {Unknown}}"
   },
+  "StageSection": {
+    "title": "Strategize Prosperity",
+    "text": "vision development, corporate strategy, IT strategy, unit strategy, initializations, project rescue, transformations, program management, project management, agile coaching, interim management, business coaching",
+    "typewriter": {
+      "1": "vision development",
+      "2": "corporate strategy",
+      "3": "IT strategy",
+      "4": "unit strategy",
+      "5": "initializations",
+      "6": "project rescue",
+      "7": "transformations",
+      "8": "program management",
+      "9": "project management",
+      "10": "agile coaching",
+      "11": "interim management",
+      "12": "business coaching"
+    }
+  },
   "Navigation": {
     "why": "Why",
     "mission": "Mission",
@@ -14,10 +32,6 @@
     "prosperity": "Prosperity",
     "contact": "Contact",
     "career": "Career"
-  },
-  "StageSection": {
-    "title": "Proseed - English Headline",
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "MissionSection": {
     "title": "Moving beyond convenience to build lasting prosperity.",

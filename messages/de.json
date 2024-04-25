@@ -7,8 +7,22 @@
     "locale": "{locale, select, de {🇩🇪} en {🇺🇸} other {Unbekannt}}"
   },
   "StageSection": {
-    "title": "Proseed - Deutsche Überschrift",
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
+    "title": "Strategize Prosperity",
+    "text": "Visionsentwicklung, Unternehmensstrategie, IT-Strategie, Bereichsstrategie, Initialisierungen, Projektrettung, Transformationen, Programmleitung, Projektleitung, Agile Coaching, Interimmanagement, Business-Coaching",
+    "typewriter": {
+      "1": "Visionsentwicklung",
+      "2": "Unternehmensstrategie",
+      "3": "IT-Strategie",
+      "4": "Bereichsstrategie",
+      "5": "Initialisierungen",
+      "6": "Projektrettung",
+      "7": "Transformationen",
+      "8": "Programmleitung",
+      "9": "Projektleitung",
+      "10": "Agile Coaching",
+      "11": "Interimmanagement",
+      "12": "Business-Coaching"
+    }
   },
   "Navigation": {
     "why": "Why",

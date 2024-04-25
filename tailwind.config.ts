@@ -27,6 +27,8 @@ const config: Config = {
         },
         yellow: '#fed400',
         green: '#004225',
+        'green-light': '#006633',
+        'accent-green': 'var(--accent-green)',
         'accent-color': 'var(--accent-color)',
         'accent-color-inverted': 'var(--accent-color-inverted)',
       },
@@ -49,6 +51,7 @@ const config: Config = {
       spacing: {
         'container': '1440px',
         'header-height': 'var(--header-height, 91px)',
+        'section-height': 'calc(100vh - var(--header-height))'
       },
       maxWidth: {
         'container': 'var(--container-width)',

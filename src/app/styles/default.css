@@ -14,6 +14,7 @@
   --background-default-1-inverted: theme('colors.black.1');
   --accent-color: theme('colors.green');
   --accent-color-inverted: theme('colors.white.2');
+  --accent-green: theme('colors.green');
   --background-accent: theme('colors.white.2');
   --background-accent-inverted: theme('colors.green');
 }
@@ -26,6 +27,7 @@
     --background-default-1-inverted: theme('colors.white.1');
     --accent-color: theme('colors.white.2');
     --accent-color-inverted: theme('colors.green');
+    --accent-green: theme('colors.green-light');
     --background-accent: theme('colors.green');
     --background-accent-inverted: theme('colors.white.2');
   }
@@ -38,6 +40,7 @@
   --background-default-1-inverted: theme('colors.black.1');
   --accent-color: theme('colors.green');
   --accent-color-inverted: theme('colors.white.2');
+  --accent-green: theme('colors.green');
   --background-accent: theme('colors.white.2');
   --background-accent-inverted: theme('colors.green');
 }
@@ -49,6 +52,7 @@
   --background-default-1-inverted: theme('colors.white.1');
   --accent-color: theme('colors.white.2');
   --accent-color-inverted: theme('colors.green');
+  --accent-green: theme('colors.green-light');
   --background-accent: theme('colors.green');
   --background-accent-inverted: theme('colors.white.2');
 }
@@ -61,14 +65,14 @@
   }
 
   body {
-    @apply relative flex flex-col min-h-screen hyphens-auto font-encode bg-default text-default;
+    @apply relative flex flex-col min-h-screen hyphens-auto font-encode bg-default text-default text-balance;
   }
 
   .main {
     @apply flex-[1_0_auto];
 
     section {
-      @apply snap-start snap-always h-screen;
+      @apply snap-start snap-always h-section-height;
     }
   }
 
