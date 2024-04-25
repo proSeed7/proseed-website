@@ -20,7 +20,7 @@ export default function StageSection({ locale }: StageSectionProps) {
     }
     return (
         <section id="stageSection" className="container w-full">
-            <div className="h-full max-w-2xl mx-auto flex flex-col gap-8 items-center justify-start pt-56">
+            <div className="h-full max-w-2xl mx-auto flex flex-col gap-8 items-center justify-center pt-20">
                 <StageLogo/>
                 <h1 className="text-3xl md:text-6xl font-extrabold leading-none tracking-tight">{t('title')}</h1>
                 <div className="text-3xl md:text-6xl font-extrabold text-accent-green leading-none tracking-tight">
