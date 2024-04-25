@@ -26,7 +26,7 @@ export default function WhatSection({ locale }: WhatSectionProps) {
                             {t('text')}
                         </p>
                     </div>
-                    <Image className={'max-w-md'} alt={'Section Image'} src={Illustration}/>
+                    <Image className={'max-w-md lg:max-w-full'} alt={'Section Image'} src={Illustration}/>
                 </div>
                 <ScrollToNextSection className={'absolute bottom-0'} sectionId={'contactSection'}/>
             </div>
