@@ -17,7 +17,7 @@ export default function ScrollToNextSection({ className, sectionId }) {
             duration={150}
             offset={-90}
             onClick={handleOnClick}
-            className={`z-0 ${!isClicked ? 'animate-bounce' : ''} hidden sm:block cursor-pointer mt-auto mb-6 text-3xl md:text-4xl hover:text-accent-green ${className}`}
+            className={`z-0 ${!isClicked ? 'animate-bounce' : ''} hidden md:block cursor-pointer mt-auto mb-6 text-3xl md:text-4xl hover:text-accent-green ${className}`}
         >
             <IoIosArrowDown className={'pointer-events-none'} />
         </Link>

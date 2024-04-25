@@ -60,7 +60,7 @@
 
 @layer base {
   html {
-    @apply snap-y snap-mandatory;
+    @apply md:snap-y md:snap-mandatory;
     @apply scroll-pt-24;
     @apply scroll-smooth;
   }
@@ -73,7 +73,11 @@
     @apply flex-[1_0_auto];
 
     section:not(#careerSection) {
-      @apply snap-start snap-always min-h-section-height sm:h-section-height;
+      @apply snap-start snap-always md:min-h-section-height md:h-section-height;
+    }
+
+    #stageSection {
+      @apply min-h-section-height;
     }
 
     #careerSection {
