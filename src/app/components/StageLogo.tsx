@@ -11,11 +11,25 @@ export default function StageLogo() {
     const [logo, setLogo] = useState(LogoDark);
     const { theme} = useTheme();
 
+    const getHtmlClassTheme = () => {
+        const htmlElement = document.documentElement;
+
+        if (htmlElement.classList.contains('dark')) {
+            return 'dark';
+        } else if (htmlElement.classList.contains('light')) {
+            return 'light';
+        }
+        return null;
+    };
+
+
     useEffect(() => {
         if (theme === 'dark') {
             setLogo(LogoLight);
-        } else {
+        } else if (theme === 'light') {
             setLogo(LogoDark);
+        } else {
+            setLogo(getHtmlClassTheme() === 'dark'? LogoLight : LogoDark);
         }
 
     }, [theme]);

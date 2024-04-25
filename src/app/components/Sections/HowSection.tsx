@@ -25,7 +25,7 @@ export default function HowSection({ locale }: HowSectionProps) {
                             {t('text')}
                         </p>
                     </div>
-                    <Image className={'lg:order-1'} alt={'Mission Section Image'} src={Illustration}/>
+                    <Image className={'lg:order-1 max-w-md'} alt={'Section Image'} src={Illustration}/>
                 </div>
                 <ScrollToNextSection className={'absolute bottom-0'} sectionId={'whatSection'}/>
             </div>

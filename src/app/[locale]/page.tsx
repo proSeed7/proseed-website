@@ -15,13 +15,15 @@ export default function Home({params: {locale}}: Props) {
 
   return (
       <main className="main relative flex flex-col">
-          <StageSection locale={locale} />
-          <MissionSection locale={locale} />
-          <HowSection locale={locale} />
-          <WhatSection locale={locale} />
+          <div className="h-20">{/*<!--Fix for chrome scroll-snap-->*/}</div>
+          <StageSection locale={locale}/>
+          <MissionSection locale={locale}/>
+          <HowSection locale={locale}/>
+          <WhatSection locale={locale}/>
           {/*<ProsperitySection locale={locale} />*/}
-          <ContactSection locale={locale} />
-          <CareerSection locale={locale} />
+          <ContactSection locale={locale}/>
+          <CareerSection locale={locale}/>
+          <div className="h-20">{/*<!--Fix for chrome scroll-snap-->*/}</div>
       </main>
   );
 }

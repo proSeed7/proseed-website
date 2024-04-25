@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import ScrollToNextSection from "@/app/components/ScrollToNextSection";
 
-import SharedGoals from '../../../../public/SectionImages/shared-goals.svg'
+import Illustration from '../../../../public/SectionImages/shared-goals.svg'
 
 interface MissionSectionProps {
     locale: string;
@@ -25,7 +25,7 @@ export default function MissionSection({ locale }: MissionSectionProps) {
                             {t('text')}
                         </p>
                     </div>
-                    <Image alt={'Mission Section Image'} src={SharedGoals}/>
+                    <Image className={'max-w-md'} alt={'Section Image'} src={Illustration}/>
                 </div>
                 <ScrollToNextSection className={'absolute bottom-0'} sectionId={'howSection'}/>
             </div>
