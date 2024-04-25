@@ -56,7 +56,7 @@ export default function HeaderLogic({ translations }) {
 
                     {navLinks.map(link => (
                         <li className={''} role="none" key={link.name}>
-                            <a role="menuitem" className={'text-2xl relative hover:text-accent-green after:bg-accent-green after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer'} href={link.href} tabIndex={isOpen ? 0 : -1}
+                            <a role="menuitem" className={'text-xl lg:text-2xl relative hover:text-accent-green after:bg-accent-green after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer'} href={link.href} tabIndex={isOpen ? 0 : -1}
                                onClick={onLinkClick}>
                                 {link.label}
                             </a>
