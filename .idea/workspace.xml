@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="812f1245-b424-42c8-a4a5-190e0cc77a3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <workItem from="1713423176425" duration="860000" />
       <workItem from="1713515122679" duration="18028000" />
       <workItem from="1713966989675" duration="20699000" />
-      <workItem from="1714036630796" duration="19570000" />
+      <workItem from="1714036630796" duration="19781000" />
     </task>
     <servers />
   </component>

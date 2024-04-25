@@ -42,13 +42,13 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-col row-start-2 md:row-start-auto gap-8">
+                <div className="flex flex-col sm:row-start-2 md:row-start-auto gap-8">
                     <span className={'text-xl md:leading-normal'}>
                         {t('column1Title')}
                     </span>
                     <FooterNavigation translations={translations}/>
                 </div>
-                <div className="flex flex-col row-start-2 md:row-start-auto gap-8">
+                <div className="flex flex-col sm:row-start-2 md:row-start-auto gap-8">
                     <span className={'text-xl md:leading-normal'}>
                         {t('column2Title')}
                     </span>
