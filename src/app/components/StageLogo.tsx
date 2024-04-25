@@ -39,7 +39,7 @@ export default function StageLogo() {
             src={logo}
             alt="Proseed Logo"
             unoptimized={true}
-            className={'w-96 md:w-9/12 h-auto'}
+            className={'w-52 sm:w-96 md:w-9/12 h-auto'}
         />
     );
 }

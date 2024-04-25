@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="812f1245-b424-42c8-a4a5-190e0cc77a3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ScrollToNextSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ScrollToNextSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Sections/CareerSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/CareerSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Sections/HowSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/HowSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Sections/MissionSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/MissionSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/StageSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/StageSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Sections/WhatSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/WhatSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/StageLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/StageLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/default.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,12 +114,23 @@
       <workItem from="1713423176425" duration="860000" />
       <workItem from="1713515122679" duration="18028000" />
       <workItem from="1713966989675" duration="20699000" />
-      <workItem from="1714036630796" duration="17930000" />
+      <workItem from="1714036630796" duration="19337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

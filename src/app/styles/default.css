@@ -72,12 +72,8 @@
   .main {
     @apply flex-[1_0_auto];
 
-    section:not(#careerSection) {
-      @apply snap-start snap-always h-section-height;
-    }
-
-    #careerSection {
-        @apply snap-start snap-always min-h-section-height;
+    section {
+      @apply snap-start snap-always min-h-section-height sm:h-section-height;
     }
   }
 
@@ -96,6 +92,10 @@
     & * {
       transition-property: transform !important;
     }
+  }
+
+  .section-illu {
+    @apply max-w-sm sm:max-w-md lg:max-w-full;
   }
 }
 

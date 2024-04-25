@@ -15,7 +15,7 @@ export default function Home({params: {locale}}: Props) {
 
   return (
       <main className="main relative flex flex-col">
-          <div className="h-20">{/*<!--Fix for chrome scroll-snap-->*/}</div>
+          <div className="h-4">{/*<!--Fix for chrome scroll-snap-->*/}</div>
           <StageSection locale={locale}/>
           <MissionSection locale={locale}/>
           <HowSection locale={locale}/>
@@ -23,7 +23,7 @@ export default function Home({params: {locale}}: Props) {
           {/*<ProsperitySection locale={locale} />*/}
           <ContactSection locale={locale}/>
           <CareerSection locale={locale}/>
-          <div className="h-20">{/*<!--Fix for chrome scroll-snap-->*/}</div>
+          <div className="h-4">{/*<!--Fix for chrome scroll-snap-->*/}</div>
       </main>
   );
 }

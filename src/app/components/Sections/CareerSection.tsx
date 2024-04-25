@@ -25,7 +25,7 @@ export default function CareerSection({ locale }: CareerSectionProps) {
                             {t('text')}
                         </p>
                     </div>
-                    <Image className={'lg:order-1 max-w-md lg:max-w-full'} alt={'Section Image'} src={Illustration}/>
+                    <Image className={'lg:order-1 section-illu'} alt={'Section Image'} src={Illustration}/>
                 </div>
             </div>
             <Footer/>
