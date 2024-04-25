@@ -49,7 +49,7 @@ export default function HeaderLogic({ translations }) {
                 className={'order-2 absolute md:static top-header-height right-0 pointer-events-none overflow-hidden w-full h-dyn-screen md:h-auto md:w-auto md:ml-auto'}
                 aria-label="Proceed Navigation">
                 <menu
-                    className={`flex flex-col md:flex-row h-full w-full md:h-auto md:w-auto bg-default p-8 md:p-0 md:gap-4 transition-transform pointer-events-auto duration-300 translate-x-full md:translate-x-0 ${isOpen ? '[&]:translate-x-0' : ''}`}
+                    className={`flex flex-col gap-12 font-semibold md:font-normal text-3xl md:text-xl lg:text-2xl items-center md:items-auto md:flex-row h-full w-full md:h-auto md:w-auto bg-default p-8 md:p-0 md:gap-4 transition-transform pointer-events-auto duration-300 translate-x-full md:translate-x-0 ${isOpen ? '[&]:translate-x-0' : ''}`}
                     role="menubar"
                     aria-label="Proseed Navigation Menu"
                     aria-expanded={isOpen ? "true" : "false"}
@@ -57,7 +57,7 @@ export default function HeaderLogic({ translations }) {
 
                     {navLinks.map(link => (
                         <li className={''} role="none" key={link.name}>
-                            <a role="menuitem" className={'text-xl lg:text-2xl relative hover:text-accent-green after:bg-accent-green after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer'} href={link.href} tabIndex={isOpen ? 0 : -1}
+                            <a role="menuitem" className={'relative hover:text-accent-green after:bg-accent-green after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer'} href={link.href} tabIndex={isOpen ? 0 : -1}
                                onClick={onLinkClick}>
                                 {link.label}
                             </a>

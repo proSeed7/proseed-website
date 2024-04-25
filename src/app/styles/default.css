@@ -72,8 +72,12 @@
   .main {
     @apply flex-[1_0_auto];
 
-    section {
+    section:not(#careerSection) {
       @apply snap-start snap-always h-section-height;
+    }
+
+    #careerSection {
+        @apply snap-start snap-always min-h-section-height;
     }
   }
 
@@ -100,11 +104,11 @@
     text-wrap: balance;
   }
 }
-@layer components {
+/*@layer components {
   #careerSection {
     @screen md {
       height: calc(100vh - var(--header-height) - var(--footer-height));
       min-height: calc(100vh - var(--header-height) - var(--footer-height));
     }
   }
-}
+}*/
