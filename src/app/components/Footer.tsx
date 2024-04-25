@@ -28,7 +28,7 @@ export default function Footer() {
     }
 
     return (
-        <footer id="footer" className={'container w-full'}>
+        <footer id="footer" className={'container w-full mt-auto'}>
             <div className="grid sm:grid-cols-2 md:grid-cols-[2fr_1fr_1fr] gap-4 min-h-52 pb-8">
                 <div className="col-0 flex flex-col gap-8">
                     <Logo hasText={true} className={'w-36 h-36'}/>
