@@ -81,7 +81,7 @@
     }
 
     #careerSection {
-        @apply snap-start snap-always min-h-section-height;
+        @apply snap-center min-h-section-height;
     }
   }
 
