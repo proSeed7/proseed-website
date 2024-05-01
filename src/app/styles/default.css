@@ -18,6 +18,13 @@
   --accent-green: theme('colors.green');
   --background-accent: theme('colors.white.2');
   --background-accent-inverted: theme('colors.green');
+  --button-text-color: theme('colors.white.1');
+  --button-text-color-hover: theme('colors.white.1');
+  --button-bg-color: theme('colors.green');
+  --button-bg-color-hover: theme('colors.green-light');
+  --form-text-color: theme('colors.white.1');
+  --form-placeholder-color: theme('colors.gray.300');
+  --form-bg-color: theme('colors.green');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +38,9 @@
     --accent-green: theme('colors.green-light');
     --background-accent: theme('colors.green');
     --background-accent-inverted: theme('colors.white.2');
+    --form-text-color: theme('colors.black.1');
+    --form-placeholder-color: theme('colors.gray.400');
+    --form-bg-color: theme('colors.white.1');
   }
 }
 
@@ -44,6 +54,9 @@
   --accent-green: theme('colors.green');
   --background-accent: theme('colors.white.2');
   --background-accent-inverted: theme('colors.green');
+  --form-text-color: theme('colors.white.1');
+  --form-placeholder-color: theme('colors.gray.300');
+  --form-bg-color: theme('colors.green');
 }
 
 .dark {
@@ -56,6 +69,9 @@
   --accent-green: theme('colors.green-light');
   --background-accent: theme('colors.green');
   --background-accent-inverted: theme('colors.white.2');
+  --form-text-color: theme('colors.black.1');
+  --form-placeholder-color: theme('colors.gray.400');
+  --form-bg-color: theme('colors.white.1');
 }
 
 @layer base {
@@ -73,7 +89,7 @@
     @apply flex-[1_0_auto];
 
     section:not(#careerSection) {
-      @apply snap-start snap-always md:min-h-section-height md:h-section-height;
+      @apply md:snap-start md:snap-always md:min-h-section-height md:h-section-height;
     }
 
     #stageSection {

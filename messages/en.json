@@ -51,7 +51,19 @@
   },
   "ContactSection": {
     "title": "You & proseed: Your journey to lasting prosperity",
-    "text": "Get in touch with us to kick off our joint journey."
+    "text": "Get in touch with us to kick off our joint journey.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Your Message",
+      "send-btn": "Send Message",
+      "name-error": "Full name is required",
+      "email-error": "Enter your email",
+      "email-validation": "Please enter a valid email",
+      "message-error": "Enter your Message",
+      "success": "Success. Message sent successfully",
+      "fail": "Something went wrong. Please try later."
+    }
   },
   "CareerSection": {
     "title": "How you become one of us",

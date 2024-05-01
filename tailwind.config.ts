@@ -24,6 +24,7 @@ const config: Config = {
         },
         black: {
           1: '#1d1d1b',
+          2: '#2F2E40',
         },
         yellow: '#fed400',
         green: '#004225',
@@ -35,12 +36,19 @@ const config: Config = {
       textColor: {
         'default': 'var(--text-default)',
         'default-inverted': 'var(--text-default-inverted)',
+        'button': 'var(--button-text-color)',
+        'button-hover': 'var(--button-text-color-hover)',
+        'form': 'var(--form-text-color)',
+        'form-placeholder': 'var(--form-placeholder-color)'
       },
       backgroundColor: {
         'default': 'var(--background-default-1)',
         'default-inverted': 'var(--background-default-1-inverted)',
         'accent': 'var(--background-accent)',
         'accent-inverted': 'var(--background-accent-inverted)',
+        'button' : 'var(--button-bg-color)',
+        'button-hover' : 'var(--button-bg-color-hover)',
+        'form': 'var(--form-bg-color)'
       },
       borderColor: {
         'default': 'var(--text-default)',

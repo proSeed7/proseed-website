@@ -51,10 +51,23 @@
   },
   "ContactSection": {
     "title": "Du & Proseed: Dein Weg zur lasting prosperity",
-    "text": "Tritt mit uns in Kontakt für den Startschuss unserer gemeinsamen Reise."
+    "text": "Tritt mit uns in Kontakt für den Startschuss unserer gemeinsamen Reise.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail-Adresse",
+      "message": "Ihre Nachricht",
+      "send-btn": "Nachricht senden",
+      "name-error": "Vollständiger Name erforderlich",
+      "email-error": "E-Mail eingeben",
+      "email-validation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "message-error": "Geben Sie Ihre Nachricht ein",
+      "success": "Erfolg. Nachricht erfolgreich gesendet",
+      "fail": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal."
+    }
+
   },
   "CareerSection": {
-    "title": "Wie du einer \nvon uns wirst",
+    "title": "Wie du einer von uns wirst",
     "text": "Für nachhaltige Prosperität braucht es eine Vielfalt an klugen Köpfen. Schicke uns Deine Bewerbung. Wir suchen Euch alle; vom Werksstudenten bis zum Management Berater."
   },
   "Footer": {
