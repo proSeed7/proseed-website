@@ -7,7 +7,7 @@ export default function Impressum() {
 
     return (
       <div className={'container flex flex-col min-h-section-height w-full'}>
-            <div className="mt-20 w-full flex flex-col gap-2">
+            {/*<div className="mt-20 w-full flex flex-col gap-2">
                 <h1 className={'text-xl lg:text-3xl font-semibold text-accent-color mb-4'}>{t('company')}</h1>
                 <span>{t('address1')}</span>
                 <span>{t('address2')}</span>
@@ -23,7 +23,7 @@ export default function Impressum() {
                 <span className={'font-semibold'}>{t('companyDirector')}</span>
                 <span>{t('person1')}</span>
                 <span>{t('person2')}</span>
-            </div>
+            </div>*/}
           <Footer/>
       </div>
     );
