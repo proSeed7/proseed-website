@@ -36,10 +36,10 @@ export default function Footer() {
                     <Logo hasText={true} className={'w-36 h-36'}/>
                     <span className={'text-xl md:leading-normal'}>{t('text')}</span>
                     <div className="flex gap-4 text-4xl">
-                        <a className={'hover:text-accent-green'} href="https://www.instagram.com/" target="_blank">
+                        <a className={'hover:text-accent-green'} href="https://www.instagram.com/proseedgmbh/" target="_blank">
                             <FaSquareInstagram />
                         </a>
-                        <a className={'hover:text-accent-green'} href="https://www.linkedin.com/" target="_blank">
+                        <a className={'hover:text-accent-green'} href="https://www.linkedin.com/company/proseed-gmbh/about/" target="_blank">
                             <FaLinkedin />
                         </a>
                     </div>
