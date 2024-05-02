@@ -119,7 +119,7 @@
   }
 
   .section-illu {
-    @apply max-w-sm sm:max-w-md lg:max-w-full;
+    @apply max-w-xs sm:max-w-sm lg:max-w-full;
   }
 }
 

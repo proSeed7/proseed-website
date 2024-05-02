@@ -4,6 +4,10 @@ import {useParams} from 'next/navigation';
 import {useState, ReactNode, useTransition} from 'react';
 import {useRouter, usePathname} from '../../navigation';
 
+import usFlag from '../../../public/us-flag.png';
+import deFlag from '../../../public/de-flag.png';
+import Image from "next/image";
+
 type Props = {
   defaultValue: string;
   label: string;
@@ -34,20 +38,15 @@ export default function LocaleSwitcherButton({
     });
   }
 
-  const flagIcon = currentLocale === 'en' ? '🇺🇸' : '🇩🇪';
+  const flagIcon = currentLocale === 'en' ? usFlag : deFlag;
 
   return (
-      <label
-          className={'text-2xl p-1 ml-auto md:ml-0 order-3 relative transition-opacity [&:disabled]:opacity-30'}
+      <button
+          className="inline-flex appearance-none bg-transparent border-none ml-auto md:ml-0 -mb-0.5 mr-1 order-3"
+          disabled={isPending}
+          onClick={toggleLocale}
       >
-        <p className="sr-only">{label}</p>
-        <button
-            className="inline-flex appearance-none bg-transparent border-none"
-            disabled={isPending}
-            onClick={toggleLocale}
-        >
-          {flagIcon}
-        </button>
-      </label>
+        <Image className={'w-8 h-auto'} src={flagIcon} alt={label}/>
+      </button>
   );
 }
