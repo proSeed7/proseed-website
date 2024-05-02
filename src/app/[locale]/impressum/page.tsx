@@ -24,7 +24,7 @@ export default function Impressum() {
                 <span>{t('person1')}</span>
                 <span>{t('person2')}</span>
             </div>*/}
-          <Footer/>
+          {/*<Footer/>*/}
       </div>
     );
 }
