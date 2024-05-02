@@ -32,7 +32,7 @@ export default function Footer() {
     return (
         <footer id="footer" className={'container w-full mt-auto'}>
             <div className="grid sm:grid-cols-2 md:grid-cols-[2fr_1fr_1fr] gap-4 mb-10">
-                <div className="col-0 flex flex-col gap-4">
+                <div className="max-md:order-last flex flex-col gap-4">
                     <Logo hasText={true} className={'w-36 h-36'}/>
                     <span className={'text-xl md:leading-normal'}>{t('text')}</span>
                     <div className="flex gap-4 text-4xl">

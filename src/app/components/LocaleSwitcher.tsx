@@ -1,5 +1,5 @@
 import { useLocale, useTranslations } from 'next-intl';
-import LocaleSwitcherButton from './LocaleSwitcherButton'; // Make sure the import path is correct
+import LocaleSwitcherButton from './LocaleSwitcherButton';
 
 export default function LocaleSwitcher() {
   const t = useTranslations('LocaleSwitcher');
