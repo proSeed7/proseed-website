@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 
-export default function Contact({className, translations}) {
+export default function ContactForm({className, translations}) {
     const {
         register,
         handleSubmit,

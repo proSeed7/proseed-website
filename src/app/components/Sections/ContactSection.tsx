@@ -3,7 +3,7 @@ import {unstable_setRequestLocale} from "next-intl/server";
 import Image from "next/image";
 import Illustration from "../../../../public/SectionImages/exploring.svg";
 import ScrollToNextSection from "@/app/components/ScrollToNextSection";
-import Contact from "@/app/components/ContactForm";
+import ContactForm from "../ContactForm";
 
 interface ContactSectionProps {
     locale: string;
@@ -39,7 +39,7 @@ export default function ContactSection({ locale }: ContactSectionProps) {
                 </div>
                 <div className="grid md:grid-cols-2 gap-4 items-center justify-items-center w-full">
                     <Image className={'hidden md:block section-illu max-w-sm'} alt={'Section Image'} src={Illustration}/>
-                    <Contact className={'w-full max-w-lg md:justify-self-start'} translations={translationValues}/>
+                    <ContactForm className={'w-full max-w-lg md:justify-self-start'} translations={translationValues}/>
                 </div>
                 <ScrollToNextSection className={'absolute bottom-0'} sectionId={'careerSection'}/>
             </div>
