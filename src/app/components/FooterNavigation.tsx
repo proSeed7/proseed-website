@@ -57,13 +57,13 @@ export default function FooterNavigation({ translations }) {
                     </a>
                 </li>
             ))}
-            <li className={''} role="none">
+            {/*<li className={''} role="none">
                 <a role="menuitem"
                    className={'lg:text-lg hover:text-accent-green cursor-pointer'}
                    onClick={()=>{router.push('/impressum')}}>
                     Impressum
                 </a>
-            </li>
+            </li>*/}
         </menu>
     );
 }
