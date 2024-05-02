@@ -1,7 +1,7 @@
 'use client'
 import {useEffect, useState} from "react";
 import {useRouter} from "next/navigation";
-import { Twirl as Hamburger } from 'hamburger-react'
+import Link from "next/link";
 
 export default function FooterNavigation({ translations }) {
 
@@ -50,13 +50,20 @@ export default function FooterNavigation({ translations }) {
             {navLinks.map(link => (
                 <li className={''} role="none" key={link.name}>
                     <a role="menuitem"
-                       className={'text-lg:text-2xl hover:text-accent-green cursor-pointer'}
+                       className={'lg:text-lg hover:text-accent-green cursor-pointer'}
                        href={link.href}
                        onClick={onLinkClick}>
                         {link.label}
                     </a>
                 </li>
             ))}
+            <li className={''} role="none">
+                <a role="menuitem"
+                   className={'lg:text-lg hover:text-accent-green cursor-pointer'}
+                   onClick={()=>{router.push('/impressum')}}>
+                    Impressum
+                </a>
+            </li>
         </menu>
     );
 }

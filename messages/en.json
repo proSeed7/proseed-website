@@ -65,6 +65,21 @@
       "fail": "Something went wrong. Please try later."
     }
   },
+  "Impressum": {
+    "company": "proseed GmbH",
+    "address1": "Im Holzkamp 74",
+    "address2": "33818 Leopoldshöhe",
+    "office": "Office Address:",
+    "officeAddress": "Nikolaus-Dürkopp-Straße 17",
+    "officeAddress2": "33602 Bielefeld",
+    "email": "Email: info@proseed-consulting.com",
+    "taxes": "VAT ID No. DE353574026",
+    "court": "Registered Office: Leopoldshöhe",
+    "court2": "District Court Bielefeld HRB: 44890",
+    "companyDirector": "Managing Directors:",
+    "person1": "Maik Dück",
+    "person2": "Benedikt Westermann"
+  },
   "CareerSection": {
     "title": "How you become one of us",
     "text": "For sustainable prosperity, we need a diversity of smart minds. Send us your application. We're looking for all of you; from working students to management consultants."

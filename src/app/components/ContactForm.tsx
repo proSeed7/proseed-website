@@ -55,7 +55,7 @@ export default function Contact({className, translations}) {
                         type="text"
                         placeholder={translations.name}
                         autoComplete="false"
-                        className={`w-full px-4 py-3 border-2 bg-form text-form placeholder:text-form-placeholder rounded-md outline-none focus:ring-4 ${
+                        className={`w-full px-4 py-3 border-2 border-green bg-form text-form placeholder:text-form-placeholder rounded-md outline-none focus:ring-4 ${
                             errors.name
                                 ? "border-red-600 focus:border-red-600 ring-red-100"
                                 : "border-gray-300 focus:border-gray-600 ring-gray-100"
@@ -82,7 +82,7 @@ export default function Contact({className, translations}) {
                         placeholder={translations.email}
                         name="email"
                         autoComplete="false"
-                        className={`w-full px-4 py-3 border-2 bg-form text-form placeholder:text-form-placeholder rounded-md outline-none focus:ring-4  ${
+                        className={`w-full px-4 py-3 border-2 border-green bg-form text-form placeholder:text-form-placeholder rounded-md outline-none focus:ring-4  ${
                             errors.email
                                 ? "border-red-600 focus:border-red-600 ring-red-100"
                                 : "border-gray-300 focus:border-gray-600 ring-gray-100"
@@ -106,7 +106,7 @@ export default function Contact({className, translations}) {
           <textarea
               name="message"
               placeholder={translations.message}
-              className={`w-full px-4 py-3 border-2 bg-form text-form placeholder:text-form-placeholder rounded-md outline-none min-h-16 h-36 focus:ring-4  ${
+              className={`w-full px-4 py-3 border-2 border-green bg-form text-form placeholder:text-form-placeholder rounded-md outline-none min-h-16 h-36 focus:ring-4  ${
                   errors.message
                       ? "border-red-600 focus:border-red-600 ring-red-100"
                       : "border-gray-300 focus:border-gray-600 ring-gray-100"

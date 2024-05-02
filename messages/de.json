@@ -64,7 +64,21 @@
       "success": "Erfolg. Nachricht erfolgreich gesendet",
       "fail": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal."
     }
-
+  },
+  "Impressum": {
+    "company": "proseed GmbH",
+    "address1": "Im Holzkamp 74",
+    "address2": "33818 Leopoldshöhe",
+    "office": "Büroadresse:",
+    "officeAddress": "Nikolaus-Dürkopp-Straße 17",
+    "officeAddress2": "33602 Bielefeld",
+    "email": "E-Mail: <email>info@proseed-consulting.com</email>",
+    "taxes": "Ust. Id.-Nr. DE353574026",
+    "court": "Sitz der Gesellschaft: Leopoldshöhe",
+    "court2": "Amtsgericht Bielefeld HRB: 44890",
+    "companyDirector": "Geschäftsführung:",
+    "person1": "Maik Dück",
+    "person2": "Benedikt Westermann"
   },
   "CareerSection": {
     "title": "Wie du einer von uns wirst",

@@ -16,8 +16,8 @@ export default function CareerSection({ locale }: CareerSectionProps) {
     return (
         <section id="careerSection" className={'container w-full flex flex-col'}>
             <div className="relative h-full w-full lg:mt-auto flex flex-col items-center justify-center py-8">
-                <div className="grid lg:grid-cols-2 items-center justify-items-center gap-20 md:gap-8">
-                    <div className="flex flex-col gap-8 text-center lg:text-left">
+                <div className="grid lg:grid-cols-2 items-center justify-items-center gap-20 md:gap-6">
+                    <div className="flex flex-col gap-4 text-center lg:text-left">
                         <h2 className="text-3xl md:text-5xl md:leading-normal text-accent-green font-semibold">
                             {t('title')}
                         </h2>
@@ -25,7 +25,7 @@ export default function CareerSection({ locale }: CareerSectionProps) {
                             {t('text')}
                         </p>
                     </div>
-                    <Image className={'lg:order-1 section-illu'} alt={'Section Image'} src={Illustration}/>
+                    <Image className={'lg:order-1 max-w-lg section-illu'} alt={'Section Image'} src={Illustration}/>
                 </div>
             </div>
             <Footer/>

@@ -24,7 +24,7 @@
   --button-bg-color-hover: theme('colors.green-light');
   --form-text-color: theme('colors.white.1');
   --form-placeholder-color: theme('colors.gray.300');
-  --form-bg-color: theme('colors.green');
+  --form-bg-color: theme('colors.white.1');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,7 +56,7 @@
   --background-accent-inverted: theme('colors.green');
   --form-text-color: theme('colors.white.1');
   --form-placeholder-color: theme('colors.gray.300');
-  --form-bg-color: theme('colors.green');
+  --form-bg-color: theme('colors.white.1');
 }
 
 .dark {
@@ -82,7 +82,7 @@
   }
 
   body {
-    @apply relative flex flex-col min-h-screen hyphens-auto font-encode bg-default text-default text-balance;
+    @apply relative flex flex-col min-h-screen font-encode bg-default text-default text-balance;
   }
 
   .main {

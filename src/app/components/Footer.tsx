@@ -27,10 +27,12 @@ export default function Footer() {
         footerJobs.push(t(`job${i}`));
     }
 
+    const currentYear = new Date().getFullYear();
+
     return (
         <footer id="footer" className={'container w-full mt-auto'}>
-            <div className="grid sm:grid-cols-2 md:grid-cols-[2fr_1fr_1fr] gap-4 min-h-52 mb-10">
-                <div className="col-0 flex flex-col gap-8">
+            <div className="grid sm:grid-cols-2 md:grid-cols-[2fr_1fr_1fr] gap-4 mb-10">
+                <div className="col-0 flex flex-col gap-4">
                     <Logo hasText={true} className={'w-36 h-36'}/>
                     <span className={'text-xl md:leading-normal'}>{t('text')}</span>
                     <div className="flex gap-4 text-4xl">
@@ -41,6 +43,8 @@ export default function Footer() {
                             <FaLinkedin />
                         </a>
                     </div>
+                    <span className={'text-lg'}>&copy; {currentYear} proseed</span>
+                    <span className={'text-xs'}>Made with &#10084; by <a className={'underline underline-offset-2 font-semibold'} href="https://www.linkedin.com/in/mihnea-cojocaru/" target="_blank">Mihnea Cojocaru</a></span>
                 </div>
                 <div className="flex flex-col sm:row-start-2 md:row-start-auto gap-8">
                     <span className={'text-xl md:leading-normal'}>
@@ -52,9 +56,11 @@ export default function Footer() {
                     <span className={'text-xl md:leading-normal'}>
                         {t('column2Title')}
                     </span>
-                        <div className="grid grid-cols-2">
+                    <div className="lg:text-lg grid grid-cols-2 gap-x-4">
                         {footerJobs.map(link => (
-                            <span className={'text-lg'} key={link}>{link}</span>
+                            <span className={''} key={link}>
+                                {link}
+                            </span>
                         ))}
                     </div>
                 </div>

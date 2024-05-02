@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="812f1245-b424-42c8-a4a5-190e0cc77a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/ContactForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cody_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/impressum/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/impressum/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/FooterNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/FooterNavigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Sections/CareerSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/CareerSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <workItem from="1713966989675" duration="20699000" />
       <workItem from="1714036630796" duration="19781000" />
       <workItem from="1714459239549" duration="1609000" />
-      <workItem from="1714551920127" duration="5553000" />
+      <workItem from="1714551920127" duration="12359000" />
     </task>
     <servers />
   </component>
