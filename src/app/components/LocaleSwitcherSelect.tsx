@@ -1,27 +1,29 @@
 'use client';
 
 import {useParams} from 'next/navigation';
-import {ChangeEvent, ReactNode, useTransition} from 'react';
+import {useState, ReactNode, useTransition} from 'react';
 import {useRouter, usePathname} from '../../navigation';
 
 type Props = {
-  children: ReactNode;
-  defaultValue: string;
+  defaultValue: string; // Default locale
   label: string;
 };
 
-export default function LocaleSwitcherSelect({
-  children,
-  defaultValue,
-  label
-}: Props) {
+export default function LocaleSwitcherButton({
+                                               defaultValue,
+                                               label
+                                             }: Props) {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
   const params = useParams();
 
-  function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
-    const nextLocale = event.target.value;
+  // State to track the current locale
+  const [currentLocale, setCurrentLocale] = useState(defaultValue);
+
+  // Function to toggle between locales
+  function toggleLocale() {
+    const nextLocale = currentLocale === 'en' ? 'de' : 'en';
     startTransition(() => {
       router.replace(
         // @ts-expect-error -- TypeScript will validate that only known `params`
@@ -30,22 +32,24 @@ export default function LocaleSwitcherSelect({
         {pathname, params},
         {locale: nextLocale}
       );
+      setCurrentLocale(nextLocale);
     });
   }
 
+  const flagIcon = currentLocale === 'en' ? '🇺🇸' : '🇩🇪';
+
   return (
-    <label
-      className={'text-2xl p-1 ml-auto md:ml-0 order-3 relative transition-opacity [&:disabled]:opacity-30'}
-    >
-      <p className="sr-only">{label}</p>
-      <select
-        className="inline-flex appearance-none bg-transparent"
-        defaultValue={defaultValue}
-        disabled={isPending}
-        onChange={onSelectChange}
+      <label
+          className={'text-2xl p-1 ml-auto md:ml-0 order-3 relative transition-opacity [&:disabled]:opacity-30'}
       >
-        {children}
-      </select>
-    </label>
+        <p className="sr-only">{label}</p>
+        <button
+            className="inline-flex appearance-none bg-transparent border-none"
+            disabled={isPending}
+            onClick={toggleLocale}
+        >
+          {flagIcon}
+        </button>
+      </label>
   );
 }
