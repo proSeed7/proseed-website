@@ -5,7 +5,7 @@ import {useState, ReactNode, useTransition} from 'react';
 import {useRouter, usePathname} from '../../navigation';
 
 type Props = {
-  defaultValue: string; // Default locale
+  defaultValue: string;
   label: string;
 };
 
@@ -18,10 +18,8 @@ export default function LocaleSwitcherButton({
   const pathname = usePathname();
   const params = useParams();
 
-  // State to track the current locale
   const [currentLocale, setCurrentLocale] = useState(defaultValue);
 
-  // Function to toggle between locales
   function toggleLocale() {
     const nextLocale = currentLocale === 'en' ? 'de' : 'en';
     startTransition(() => {

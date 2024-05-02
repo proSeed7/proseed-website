@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="812f1245-b424-42c8-a4a5-190e0cc77a3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Sections/ContactSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/LocaleSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/LocaleSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/LocaleSwitcherSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/LocaleSwitcherButton.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
