@@ -12,7 +12,7 @@ export default function Impressum({params: {locale}}: Props) {
 
     return (
       <div className={'container flex flex-col min-h-section-height w-full'}>
-            <div className="mt-20 w-full flex flex-col gap-2">
+            <div className="my-10 w-full flex flex-col gap-2">
                 <h1 className={'text-xl lg:text-3xl font-semibold text-accent-color mb-4'}>{t('company')}</h1>
                 <span>{t('address1')}</span>
                 <span>{t('address2')}</span>
