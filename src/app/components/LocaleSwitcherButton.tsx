@@ -4,7 +4,7 @@ import {useParams} from 'next/navigation';
 import {useState, ReactNode, useTransition} from 'react';
 import {useRouter, usePathname} from '../../navigation';
 
-import usFlag from '../../../public/us-flag.png';
+import ukFlag from '../../../public/uk-flag.png';
 import deFlag from '../../../public/de-flag.png';
 import Image from "next/image";
 
@@ -38,7 +38,7 @@ export default function LocaleSwitcherButton({
     });
   }
 
-  const flagIcon = currentLocale === 'en' ? usFlag : deFlag;
+  const flagIcon = currentLocale === 'en' ? deFlag : ukFlag;
 
   return (
       <button

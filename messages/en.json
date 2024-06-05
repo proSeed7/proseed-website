@@ -8,16 +8,16 @@
   },
   "StageSection": {
     "title": "Strategize Prosperity",
-    "text": "vision development, corporate strategy, IT strategy, unit strategy, initializations, project rescue, transformations, program management, project management, agile coaching, interim management, business coaching",
+    "text": "vision development, corporate strategy, IT strategy, unit strategy, initialisations, project rescue, transformations, programme management, project management, agile coaching, interim management, business coaching",
     "typewriter": {
       "1": "vision development",
       "2": "corporate strategy",
       "3": "IT strategy",
       "4": "unit strategy",
-      "5": "initializations",
+      "5": "initialisations",
       "6": "project rescue",
       "7": "transformations",
-      "8": "program management",
+      "8": "programme management",
       "9": "project management",
       "10": "agile coaching",
       "11": "interim management",
@@ -35,15 +35,15 @@
   },
   "MissionSection": {
     "title": "Moving beyond convenience to build lasting prosperity.",
-    "text": "Our mission is to build a system in which personal and corporate breakthrough works together for lasting prosperity."
+    "text": "Our mission is to build a system in which personal and corporate breakthroughs work together for lasting prosperity."
   },
   "HowSection": {
     "title": "Greater understanding of prosperity",
-    "text": "We pursue our vision by discipline, structure and space for the unexpected. We always focus on Vision, Strategy and Culture."
+    "text": "We pursue our vision by discipline, structure and space for the unexpected. We always focus on vision, strategy and culture."
   },
   "WhatSection": {
     "title": "Our proseedure: tailored consulting",
-    "text": "Whether you’re just starting out, in full swing, or facing challenges - we’ll develop tailored solutions to meet your goals. From vision development to strategy development to organizational development, we’ll help you find and follow the best path to prosperity."
+    "text": "Whether you’re just starting out or in full swing - we’ll develop tailored solutions to overcome your challenges and meet your goals. From vision to strategy to organisational development, we’ll help you find and follow the best path to prosperity."
   },
   "ProsperitySection": {
     "title": "Hier könnte Ihre (Werbung) Testimonial stehen",
@@ -51,7 +51,7 @@
   },
   "ContactSection": {
     "title": "You & proseed: Your journey to lasting prosperity",
-    "text": "Get in touch with us to kick off our joint journey.",
+    "text": "Get in touch with us to launch our journey together.",
     "form": {
       "name": "Full Name",
       "email": "Email Address",
@@ -61,7 +61,7 @@
       "email-error": "Enter your email",
       "email-validation": "Please enter a valid email",
       "message-error": "Enter your Message",
-      "success": "Success. Message sent successfully",
+      "success": "Message sent successfully!",
       "fail": "Something went wrong. Please try later."
     }
   },
@@ -82,10 +82,10 @@
   },
   "CareerSection": {
     "title": "How you become one of us",
-    "text": "For sustainable prosperity, we need a diversity of smart minds. Send us your application. We're looking for all of you; from working students to management consultants."
+    "text": "For sustainable prosperity, we need a diversity of minds. Send us your application. We’re\nlooking for all of you; from working students to management consultants."
   },
   "Footer": {
-    "text": "We are strategist of prosperity",
+    "text": "We are strategists of prosperity",
     "column1Title": "All at a glance",
     "column2Title": "Jobs for Proseeds",
     "job1": "Junior Consultant",
@@ -97,6 +97,7 @@
     "job7": "Management Consultant",
     "job8": "Intern"
   },
+
   "PathnamesPage": {
     "title": "Pathnames",
     "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"

@@ -20,7 +20,7 @@
       "8": "Programmleitung",
       "9": "Projektleitung",
       "10": "Agile Coaching",
-      "11": "Interimmanagement",
+      "11": "Interim Management",
       "12": "Business-Coaching"
     }
   },
@@ -42,7 +42,7 @@
     "text": "Wir verfolgen unsere Vision mit Disziplin, Struktur und Raum für das Unerwartete. Wir setzen den Fokus auf Vision, Strategie und Kultur."
   },
   "WhatSection": {
-    "title": "Unser proseedure:Beratung nach Maß",
+    "title": "Unser proseedure: Beratung nach Maß",
     "text": "Ganz gleich, ob Du gerade erst beginnst, bereits in vollem Gange bist oder vor Herausforderungen stehst – wir entwickeln maßgeschneiderte Lösungen für deine Ziele. Von der Visionsentwicklung über die Strategieentwicklung bis hin zur Organisationsentwicklung unterstützen wir dich dabei, den optimalen Weg zu finden und zu gehen, um Prosperität zu erreichen."
   },
   "ProsperitySection": {
@@ -50,7 +50,7 @@
     "text": "Es lebe die Prosperität! Erzähl der Welt wie Du sie erlebt hast."
   },
   "ContactSection": {
-    "title": "Du & Proseed: Dein Weg zur lasting prosperity",
+    "title": "Du & Proseed: Dein Weg zur lasting Prosperity",
     "text": "Tritt mit uns in Kontakt für den Startschuss unserer gemeinsamen Reise.",
     "form": {
       "name": "Name",
@@ -61,7 +61,7 @@
       "email-error": "E-Mail eingeben",
       "email-validation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
       "message-error": "Geben Sie Ihre Nachricht ein",
-      "success": "Erfolg. Nachricht erfolgreich gesendet",
+      "success": "Nachricht erfolgreich gesendet!",
       "fail": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal."
     }
   },
