@@ -24,7 +24,7 @@ export default function Header() {
                 </div>
                 <HeaderLogic translations={translations} />
                 <LocaleSwitcher/>
-                <ThemeSwitch/>
+                <ThemeSwitch className={''}/>
             </div>
         </header>
     );

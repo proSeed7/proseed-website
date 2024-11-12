@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import { FaSun, FaMoon } from "react-icons/fa";
 
-export default function ThemeSwitch() {
+export default function ThemeSwitch({className}) {
     const { theme, setTheme } = useTheme()
     const [mounted, setMounted] = useState(false)
     const [isToggled, setToggle] = useState(theme === 'dark')
@@ -31,7 +31,7 @@ export default function ThemeSwitch() {
     }
 
     return (
-        <div className={'order-4'}>
+        <div className={className}>
             <input type="checkbox" className="checkbox cursor-pointer w-12 h-7 opacity-0 absolute peer" id="checkbox" onChange={toggleTheme}
                    checked={isToggled}/>
             <label htmlFor="checkbox"
