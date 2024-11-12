@@ -7,7 +7,7 @@
 :root {
   --container-width: theme('spacing.container');
   --header-height: 91px;
-  --footer-height: 306px;
+  --footer-height: 700px;
 
   --text-default: theme('colors.green');
   --text-default-inverted: theme('colors.white.1');
@@ -25,6 +25,14 @@
   --form-text-color: theme('colors.white.1');
   --form-placeholder-color: theme('colors.gray.300');
   --form-bg-color: theme('colors.white.1');
+}
+
+@screen sm {
+  --footer-height: 528px;
+}
+
+@screen md {
+  --footer-height: 358px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -88,21 +96,20 @@
   .main {
     @apply flex-[1_0_auto];
 
-    section:not(#careerSection) {
+    /*section:not(#careerSection) {
       @apply md:snap-start md:snap-always md:min-h-section-height md:h-section-height;
+    }*/
+    section:not(#careerSection) {
+      @apply md:min-h-section-height md:h-section-height;
     }
 
     #stageSection {
       @apply min-h-section-height;
     }
-
-    #careerSection {
-        @apply snap-center min-h-section-height;
-    }
   }
 
-  .footer {
-    @apply snap-start snap-always;
+  #careerSection {
+    @apply min-h-last-section-height;
   }
 
   .container {

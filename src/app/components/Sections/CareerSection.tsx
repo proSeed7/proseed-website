@@ -28,7 +28,6 @@ export default function CareerSection({ locale }: CareerSectionProps) {
                     <Image className={'section-illu lg:order-1 lg:max-w-lg'} alt={'Section Image'} src={Illustration}/>
                 </div>
             </div>
-            <Footer/>
         </section>
     );
 }

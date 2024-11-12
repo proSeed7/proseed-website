@@ -43,6 +43,7 @@ export default async function LocaleLayout({
         <Providers>
             <Header/>
             {children}
+            <Footer/>
         </Providers>
         </body>
         </html>

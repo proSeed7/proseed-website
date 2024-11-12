@@ -59,7 +59,8 @@ const config: Config = {
       spacing: {
         'container': '1440px',
         'header-height': 'var(--header-height, 91px)',
-        'section-height': 'calc(100vh - var(--header-height))'
+        'section-height': 'calc(100vh - var(--header-height))',
+        'last-section-height': 'calc(100vh - var(--header-height) - var(--footer-height))'
       },
       maxWidth: {
         'container': 'var(--container-width)',
