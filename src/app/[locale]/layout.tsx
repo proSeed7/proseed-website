@@ -54,7 +54,7 @@ export default async function LocaleLayout({
                         <a className={'w-fit relative hover:text-accent-green after:bg-accent-green after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer'} href="mailto:info@proseed-consulting.com">info@proseed-consulting.com</a>
                         <a className={'w-fit relative hover:text-accent-green after:bg-accent-green after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer'} href="tel:4915123259252">+49151 2325 9252</a>
                     </div>
-                    <h1 className={'font-bold'}>Wir retten IT-Projekte vor dem Scheitern und sichern beständigen Erfolg!</h1>
+                    <h1 className={'font-bold'}>Wir bringen IT-Projekte zu beständigem Erfolg...<br />und sichern Ihre Zeit, Ihr Geld und Ihre Nerven.</h1>
                 </div>
             </div>
             {/*<Header/>
