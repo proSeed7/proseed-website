@@ -7,7 +7,7 @@ import Image from 'next/image';
 import LogoDark from '../../../public/proseed_logo_stage.svg';
 import LogoLight from '../../../public/proseed_logo_stage-light.svg'
 
-export default function StageLogo() {
+export default function StageLogo({className}) {
     const [logo, setLogo] = useState(LogoDark);
     const { theme} = useTheme();
 
@@ -39,7 +39,7 @@ export default function StageLogo() {
             src={logo}
             alt="Proseed Logo"
             unoptimized={true}
-            className={'w-52 sm:w-96 md:w-9/12 h-auto'}
+            className={'w-52 sm:w-96 md:w-9/12 h-auto ' + className}
         />
     );
 }
