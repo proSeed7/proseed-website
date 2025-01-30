@@ -12,6 +12,7 @@ export default function ProsperitySection({ locale }: ProsperitySectionProps) {
     return (
         <section id="prosperitySection" className={'container w-full py-8'}>
             <p>WIRD ERST IM HERBST DEPLOYT</p>
+            {/*Add a comment to trigger a diployment*/}
             <h2>{t('title')}</h2>
             <p>{t('text')}</p>
         </section>
